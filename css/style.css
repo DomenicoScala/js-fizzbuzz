@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-cont{
+    margin-top: 100px;
+}
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul{
+    display: inline-block;
+}
+
+.container ul li{
+    color:black;
+    display: inline-block;
+    padding: 50px;
+}

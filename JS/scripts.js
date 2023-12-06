@@ -1,4 +1,4 @@
-for(let i = 0; i <= 100; i = i + 1){
+for(let i = 1; i <= 100; i = i + 1){
     
     const restoUno = i % 3;
     const restoDue = i % 5;
@@ -12,10 +12,8 @@ for(let i = 0; i <= 100; i = i + 1){
     else if(restoDue == 0){
         console.log('buzz')
     }
-    else(restoUno != 0 && restoDue != 0);{
+    else{
         console.log('i', i);
     }
-
-
 
 }   
