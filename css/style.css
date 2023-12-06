@@ -6,6 +6,7 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .main-cont{
@@ -15,7 +16,7 @@ html{
 
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -32,4 +33,30 @@ html{
     color:black;
     display: inline-block;
     padding: 50px;
+}
+
+.fizzbuzz-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fizzbuzz-container > *{
+    width: 10%;
+    height: 100px;
+    line-height: 100px;
+    border: 2px solid white;
+    background-color: darkblue;
+    color: white;
+}
+
+.fizzbuzz-container > .fizz{
+    background-color: goldenrod;
+}
+
+.fizzbuzz-container > .buzz{
+    background-color: aquamarine;
+}
+
+.fizzbuzz-container > .fizzbuzz{
+    background-color: green;
 }
